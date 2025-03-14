@@ -2,9 +2,6 @@
 
 По следующему [техническому заданию](https://drive.google.com/file/d/1vr8fnsEqPCmgAAltMvuCKvt0neTF9b2f/view?usp=sharing)
 
-## Быстрый старт
-```docker-compose up --build -d```
-
 
 ##  Установка
 
@@ -15,6 +12,7 @@ docker-compose up --build -d
 ## Использование
 
 Перейдите в панель управления по ссылки [ToDo Admin Demo](http://127.0.0.1:8080/admin)
+
 Документация API http://127.0.0.1:8080/api/doc
 
 
