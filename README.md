@@ -15,8 +15,11 @@ docker-compose up --build -d
 ## Использование
 
 Перейдите в панель управления по ссылки [ToDo Admin Demo](http://127.0.0.1:8080/admin)
+Документация API http://127.0.0.1:8080/api/doc
+
 
 ## Порядок разработки
+_13.03.2025_
 * Создал сборку docker (symfony 6 + php 8)
 * Создал шаблон проекта symfony
 * Установил необходимые первоначальные пакеты symfony
@@ -24,5 +27,10 @@ docker-compose up --build -d
 * Создал сущность ToDo + Enum + Controller
 * Подключил и настроил бандл EasyAdmin для админки
 * Сгенерировал CRUD для ToDo
+
+_14.03.2025_
+* Создал контроллер API ToDo, подключил Serializer
+* Подключил и настроил бандл NelmioApiDocBundle
+* Создал Postman коллекцию CRUD ToDo
 
 _... продолжение следует_
