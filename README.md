@@ -7,6 +7,10 @@
 
 ```bash
 docker-compose up --build -d
+docker exec -it php bash
+symfony composer install
+symfony php bin/console doctrine:database:create
+symfony php bin/console doctrine:migrations:migrate
 ```
 
 ## Использование
